@@ -241,21 +241,25 @@ function getArtistByIndex(inventory, index) {
  * it will remove Amedeo Modigliani from our dataset.
 */
 function removeArtist(inventory, index) {
-    let Name = inventory[index].name;
-    console.log(Name);
+    inventory[index].name;
+    return artists
+    
   }
-  console.log(removeArtist(artists, 0));
+  console.log(removeArtist(artists, 9));
   /**
 
 
 /* Task 5: Create a function called get20s() that takes data as an argument and returns an array with names of artists who were born the 20th century (1800-1900) */
 
-function get20s(/* Code here */){
+function get20s(array){
 
-    /* Code here */
+    for(let i =0; i < array.lenght; i++){
+      console.log(array.lenght[i].years);
+    }
+
 
   }
-
+console.log(artists)
 /* Task 6: Create a function called lotsOfArt() that takes artists as an argument and returns an array with names of artists who painted more than 100 paintings */
 
 function lotsOfArt(/* Code here */){
