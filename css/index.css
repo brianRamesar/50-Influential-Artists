@@ -162,6 +162,10 @@ html {
 .artists-container .artist img {
   width: 50%;
   border-radius: 6px;
+  opacity: 1;
+}
+.artists-container .artist img:hover {
+  opacity: 0.8;
 }
 .artists-container .artist .bio {
   font-size: 1.5rem;
