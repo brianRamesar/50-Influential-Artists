@@ -1,0 +1,15 @@
+1. How would you describe preprocessing to someone new to CSS?
+    preprocessing is like a language extention that allows you to do things in css 
+    that the vanilla language cannot. 
+
+2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+my favorite concept in preprocessing is the nexting feature. the concept that gives me the most trouble are paramixins.
+
+3. How would you explain the concept of a variable to someone new to programming?
+a variable is the name you're giving to a value, that value could be any primative data type. naming a variable has certain rules, no special chars. or numbers. 
+
+4. What is the purpose of using functions in code?
+functions are like a jar that holds pieces of code that you can call/invoke when ever you want.
+
+5. What is a JSON data?
+    JSON or Java Script Object Notation data is a string, an array, boolean, or Object.
