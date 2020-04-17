@@ -1,3 +1,6 @@
+@import 'variables';
+@import 'mixins';
+
 html{
     font-size: 62.5%;
 }
@@ -19,6 +22,55 @@ html{
 
     font-size: 4rem;
     color: white;
+
+
+
+    button{
+        .buttonStyle(1.5rem);
+    }
+}
+
+.artists-container{
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid grey;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    @media @phone{
+        flex-direction: column;
+    }
+
+    .artist{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin: 0 2%;
+
+        @media @phone{
+            width: 100%;
+        }
+
+        a{
+            font-size: 2rem;
+            padding: 2% 0;
+            .navLinks;
+        }
+        
+        img{
+            width: 50%;
+            border-radius: 6px;
+        
+        }
+
+        .bio{
+            font-size: 1.5rem;
+            padding-bottom: 2%;
+        }
+    }
 }
     
    

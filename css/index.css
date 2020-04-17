@@ -122,3 +122,48 @@ html {
   font-size: 4rem;
   color: white;
 }
+.title-container button {
+  font-size: 1.5rem;
+  padding: 1% 4%;
+  border-radius: 5px;
+}
+.artists-container {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid grey;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+@media (max-width: 500px) {
+  .artists-container {
+    flex-direction: column;
+  }
+}
+.artists-container .artist {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2%;
+}
+@media (max-width: 500px) {
+  .artists-container .artist {
+    width: 100%;
+  }
+}
+.artists-container .artist a {
+  font-size: 2rem;
+  padding: 2% 0;
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+.artists-container .artist img {
+  width: 50%;
+  border-radius: 6px;
+}
+.artists-container .artist .bio {
+  font-size: 1.5rem;
+  padding-bottom: 2%;
+}
